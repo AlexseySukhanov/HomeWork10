@@ -2,9 +2,9 @@ def next_in_iterable(iter):
     import math
 
     '''
-    Function findit search item in given iterable object
-    INPUT:item to find, iterable object
-    OUTPUT:position of searching item in iterable object, if item not exist returns -1
+    Function next_in_iterable calculates next iterable object
+    INPUT:iterable
+    OUTPUT:next iterable
     '''
     if iter[-1]-iter[-2]==iter[-2]-iter[-3]:
         return linear(iter)
